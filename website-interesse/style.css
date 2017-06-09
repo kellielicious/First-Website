@@ -1,0 +1,145 @@
+h1 {
+  margin-top: 0;
+}
+
+body {
+  font-family: Harrington;
+  background: url("assets/background.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header{
+background-color: #95a5a6;
+padding: 10px;
+color: white;
+}
+
+.container{
+  width: 960px;
+  margin: 0 auto;
+}
+
+.navigation{
+  margin-bottom: 15px;
+}
+
+.leftblock{
+width: 70%;
+margin-right: 4px;
+display: inline-block;
+}
+
+.leftblock article{
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 2px;
+}
+
+table, th, td{
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+article .content {
+display: inline-block;
+width: 70%;
+}
+
+article .image{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.rightblock{
+  width: 20%;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 15px;
+  vertical-align: top;
+}
+
+.form{
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 15px;
+  background-color:
+}
+
+footer{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.upfoot{
+ background-color: #9b59b6;
+ color: #FFF;
+ padding: 30px;
+}
+
+.upfoot a{
+  font-size: 25px;
+  color: #FFF;
+}
+
+.botfoot{
+  padding: 10px;
+  background-color: #95a5a6;
+  color: #FFF;
+}
+
+/* The animation code */
+@keyframes example {
+    from {top: 0;}
+    to {top: 25%;}
+}
+
+#space-invader{
+  box-shadow:
+    0 0 0 1em black,
+    0 1em 0 1em black,
+    -2.5em 1.5em 0 .5em black,
+    2.5em 1.5em 0 .5em black,
+    -3em -3em 0 0 black,
+    3em -3em 0 0 black,
+    -2em -2em 0 0 black,
+    2em -2em 0 0 black,
+    -3em -1em 0 0 black,
+    -2em -1em 0 0 black,
+    2em -1em 0 0 black,
+    3em -1em 0 0 black,
+    -4em 0 0 0 black,
+    -3em 0 0 0 black,
+    3em 0 0 0 black,
+    4em 0 0 0 black,
+    -5em 1em 0 0 black,
+    -4em 1em 0 0 black,
+    4em 1em 0 0 black,
+    5em 1em 0 0 black,
+    -5em 2em 0 0 black,
+    5em 2em 0 0 black,
+    -5em 3em 0 0 black,
+    -3em 3em 0 0 black,
+    3em 3em 0 0 black,
+    5em 3em 0 0 black,
+    -2em 4em 0 0 black,
+    -1em 4em 0 0 black,
+    1em 4em 0 0 black,
+    2em 4em 0 0 black;
+
+    background: black;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+    margin: 50px 0 70px 65px;
+    position: fixed;
+    left: 5%;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
